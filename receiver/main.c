@@ -7,7 +7,7 @@
         the three-axis data over UART. Based on example code from Texas
         Instruments.
 
- @author Pengyu Li (STVLAb, City University of Hong Kong)
+ @author Pengyu Li (STVL, City University of Hong Kong)
 
  Copyright (c) 2021 Pengyu Li
  SPDX-License-Identifier: MIT
