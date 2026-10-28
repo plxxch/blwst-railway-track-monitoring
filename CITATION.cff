@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this firmware, please cite the paper listed in preferred-citation."
+title: "BLWST: Battery-Less Wireless Sensor Tag for Railway Track Monitoring"
+abstract: >-
+  Firmware for a battery-less wireless sensor tag (BLWST) based on the Texas
+  Instruments CC430F5137 and an ADXL362 accelerometer. The sensor node measures
+  track vibration and transmits an 8-byte packet over a 433 MHz RF link; the
+  receiver forwards the three-axis data over UART.
+type: software
+authors:
+  - family-names: Li
+    given-names: Pengyu
+  - family-names: Long
+    given-names: Zhihe
+  - family-names: Yang
+    given-names: Zhengbao
+year: 2021
+license: MIT
+repository-code: "https://github.com/plxxch/blwst-railway-track-monitoring"
+keywords:
+  - battery-free
+  - RF energy harvesting
+  - railway track monitoring
+  - accelerometer
+  - CC430F5137
+  - ADXL362
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Li
+      given-names: Pengyu
+    - family-names: Long
+      given-names: Zhihe
+    - family-names: Yang
+      given-names: Zhengbao
+  title: "RF Energy Harvesting for Batteryless and Maintenance-Free Condition Monitoring of Railway Tracks"
+  year: 2021
+  journal: "IEEE Internet of Things Journal"
+  volume: 8
+  issue: 5
+  start: 3512
+  end: 3523
+  doi: "10.1109/JIOT.2020.3023475"
